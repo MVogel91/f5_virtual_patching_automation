@@ -1,0 +1,12 @@
+{
+  "signature_set": {
+    "name": "virtual_patch_json_example",
+    "signatures": [200001475],
+    "policies": ["/Common/my_app"],
+    "enforce_signatures": true,
+    "apply_policy": true,
+    "alarm": true,
+    "block": true,
+    "learn": false
+  }
+}

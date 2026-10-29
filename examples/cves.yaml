@@ -1,0 +1,11 @@
+signature_set:
+  name: virtual_patch_cve_example
+  cves:
+    - CVE-2024-12345 # Replace with CVE supported by your device
+  policies:
+    - /Common/my_app # Replace with your policy path
+  enforce_signatures: true
+  apply_policy: true
+  alarm: true
+  block: true
+  learn: false

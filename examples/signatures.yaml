@@ -1,0 +1,8 @@
+signature_set:
+  name: virtual_patch_id_example
+  signatures:
+    - 200001475 # Replace with desired public signature IDs
+  policies:
+    - my_app # Bare name means /Common/my_app
+  enforce_signatures: true
+  apply_policy: true
