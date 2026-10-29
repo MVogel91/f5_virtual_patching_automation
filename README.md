@@ -85,12 +85,10 @@ you need changes to survive a reboot.
 
 ## API endpoints
 
-Authentication: `POST /mgmt/shared/authn/login`, `PATCH`/`DELETE
-/mgmt/shared/authz/tokens/<token>`. All WAF endpoints include the complete
-prefix shown here:
-
 | Purpose | Endpoint |
 |---|---|
+| Authentication (POST) | `/mgmt/shared/authn/login` |
+| Session Management (PATCH/DELETE) | `/mgmt/shared/authz/tokens/<token>` |
 | Find signatures / CVE references | `/mgmt/tm/asm/signatures` |
 | Find/create/update manual set | `/mgmt/tm/asm/signature-sets[/<id>]` |
 | Find policies | `/mgmt/tm/asm/policies` |
